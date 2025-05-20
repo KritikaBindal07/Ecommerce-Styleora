@@ -19,7 +19,14 @@ const coupanRouter = require("./routes/coupanRoutes");
 const enquiryRouter = require("./routes/enqRoutes");
 dbConnect();
 app.use(morgan("dev"));
-app.use(cors());
+const corsOptions = {
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
