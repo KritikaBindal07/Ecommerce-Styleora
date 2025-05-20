@@ -1,16 +1,14 @@
 import './ResetPassword.css'
-import Button from '../Button/Button'
 import { FaEyeSlash } from 'react-icons/fa'
 import { FaEye } from 'react-icons/fa'
 import { useState, useEffect } from 'react'
-import { toast } from 'react-toastify'
+
 import { useSelector, useDispatch } from 'react-redux'
-import { updatePassword } from '../../services/Authentication/authAction'
-import ClipLoader from 'react-spinners/ClipLoader'
+
 import { useNavigate } from 'react-router-dom'
 const ResetPassword = () => {
-    const navigate = useNavigate()
-    const dispatch = useDispatch()
+    // const navigate = useNavigate()
+    // const dispatch = useDispatch()
     const [showNewPswrd, setShowNewPswrd] = useState(true);
 
     return (
