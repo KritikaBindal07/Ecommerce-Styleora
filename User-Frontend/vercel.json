@@ -3,8 +3,11 @@
     "outputDirectory": "build",
     "framework": "create-react-app",
     "cleanUrls": true,
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
+   
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
     ]
+
+
   }
   
