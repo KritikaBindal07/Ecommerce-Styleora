@@ -63,7 +63,7 @@ const Header = () => {
       <nav className='z-20 shadow navBar md:block md:items-center '>
         <div className='justify-between block p-4 md:p-4 md:flex first'>
           <div className='flex flex-wrap items-center md:w-[100vw] box'>
-            <div className='flex items-center box1' onClick={handleLogoClick}>
+            <div className='flex items-center box1 cursor-pointer' onClick={handleLogoClick}>
               <img className='inline h-6 md:h-8 logo' src={logo} alt='' />
               <span className='text-xl md:text-2xl name'>
                 Style<b style={{ color: 'black' }}>ora</b>

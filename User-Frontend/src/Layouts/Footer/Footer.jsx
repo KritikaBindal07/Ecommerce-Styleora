@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <hr style={{ color: 'white' }} />
-        <p className='copyright'>&#169;2024 Styleora All right reserved</p>
+        <p className='copyright'>&#169;2025 Styleora All right reserved</p>
       </div>
     </>
   )

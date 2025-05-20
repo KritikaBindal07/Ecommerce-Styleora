@@ -1,0 +1,10 @@
+{
+    "buildCommand": "npm install --legacy-peer-deps && npm run build",
+    "outputDirectory": "build",
+    "framework": "create-react-app",
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
+  }
+  
